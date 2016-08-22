@@ -4,6 +4,8 @@ layout: default
 
 <div class="home">
 
+  <div class="wrapper">
+  <div class="col-1">
   <h1 class="page-heading">Pages</h1>
 
   <ul class="page-list">
@@ -21,6 +23,8 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
+  </div>
+  <div class="col-2">
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -32,6 +36,8 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+  </div>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
