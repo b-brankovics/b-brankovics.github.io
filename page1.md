@@ -14,6 +14,6 @@ List of pages:
 Second list of pages:
 <ul>
   {% for my_page in site.pages %}
-    <li>{{my_page.title}}</li>
+    <li>"{{my_page.title}}" at '{{my_page.url}}'</li>
   {% endfor %}
 </ul>
