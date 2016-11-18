@@ -18,3 +18,4 @@ github_username:  b-brankovics
 
 # Build settings
 markdown: kramdown
+higlighter: rouge
