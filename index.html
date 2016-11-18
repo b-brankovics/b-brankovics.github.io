@@ -4,34 +4,33 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Pages</h1>
+  <h1 class="page-heading">Welcome to Season of Code!</h1>
 
-  <ul class="page-list">
-    {% for my_page in site.pages %}
-      {% if my_page.title and my_page.title != "About" %}
-        <li>
-        
-          <h2>
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          </h2>
-        </li>
-      {% endif %}
+  <p>This is my website where I collect my projects and blog posts.
+      I am a bioinformatician and a hobby developer.
+      Since I am a bioinformatician most of my posts and projects are
+      related to bioinformatics. Over the years I have learned a lot from
+      people who took the time to create tutorials, to post questions on
+      different fora, to answer questions on fora and to write informative
+      blog posts. Now time has come that I become one of the many who add
+      their knowledge to the web.
+  </p>
+  <p>As I have mentioned most of my projects and blog posts are related to
+      bioinformatics, but not all of them. Bellow you can find the main
+      pages of this site:
+  </p>
+
+  <div class="flex-row">
+    {% assign array = site.pages | reverse %}
+    {% for my_page in array %}
+        {% if (my_page.title and my_page.title == "About") or (my_page.title and my_page.title == "Projects") or (my_page.title and my_page.title == "Blog posts") %}
+            <div class="basic-flex">
+                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            </div>
+        {% endif %}
     {% endfor %}
-  </ul>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-	
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
