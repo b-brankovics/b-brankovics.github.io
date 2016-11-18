@@ -1,0 +1,83 @@
+/* CSS to extend the main.css rules */
+
+/**
+ * CSS syntax highlights
+ * import from file
+ *
+ * Background-color is set later in the file
+ */
+@import url(monokai.sublime.css);
+
+pre,
+code {
+  color: white;
+  background-color: #49483e;
+  border: none;
+  border-radius: 0px;
+}
+
+code {
+    border-radius: 3px;
+}
+
+/**
+ * Flexbox
+ */
+.flex-row {
+    display:flex;
+    flex-flow: row wrap;
+}
+.basic-flex {
+    margin: 5px;
+    background-color: #263636;
+    border: 5px solid #263636;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/**
+ * Setting up flexbox for layout
+ * The header and footer should have a size that does not depend
+ * on the size of the page content
+ * Footer should stick to the bottom of the page
+ * Solution:
+ *  - body as a flexbox container that is at least full view high
+ *  - only the contents grow (not the header and the footer)
+ *    (the page content is inside the page-content class div)
+ */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.page-content {
+    flex: 1;
+}
+
+.page-content > .wrapper {
+    background-color: #B2D1D1;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+body {
+    background-color: #3E8B8B;
+}
+/* Change colors
+.page-content > .wrapper {
+    background-color: rgb(85,85,85);
+    border-radius: 10px;
+}
+*/
+.site-header {
+    border: none;
+    background-color: #006666;
+}
+.site-header a {
+    color: white;
+}
+
+.site-footer {
+    background-color: #263636;
+    border: none;
+}
