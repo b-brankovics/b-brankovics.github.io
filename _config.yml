@@ -10,7 +10,7 @@ title: Season of Code
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Website of b-brankovics. I am a bioinformatician and a hobby developer.
-  This website is a collection of projects and my blog posts.
+  This website is a collection of my projects and blog posts.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://b-brankovics.github.io" # the base hostname & protocol for your site
 twitter_username: BBrankovics
