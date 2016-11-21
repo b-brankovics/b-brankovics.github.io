@@ -10,6 +10,11 @@ permalink: /blog/
 
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <div class="categories flex-row">
+          {% for cat in post.categories %}
+            <span class="basic-flex post-meta category">{{ cat }}</span>
+          {% endfor %}
+        </div>
       </h2>
     </li>
   {% endfor %}

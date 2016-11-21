@@ -2,7 +2,7 @@
 layout: post
 title:  "Sticky footer layout"
 date:   2016-11-18 15:29:36 +0100
-categories: jekyll css
+categories: jekyll css html
 ---
 
 The default layout used with Jekyll places the footer right after the

@@ -81,3 +81,15 @@ body {
     background-color: #263636;
     border: none;
 }
+
+/* Formatting for categories */
+
+div.categories > span.category {
+    color: white;
+    max-width: 30px;
+    border-radius: 0px;
+    margin: 2px;
+    padding: 0.01em;
+    padding-bottom: 0.1em;
+    line-height: 0.8em;
+}
