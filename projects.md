@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-<h2 style="color: darkred"> Comming soon!</h2>
+
 <ul class="page-list">
   {% for my_page in site.pages %}
     {% if my_page.title and my_page.title != "About" ||
