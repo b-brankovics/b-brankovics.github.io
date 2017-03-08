@@ -37,7 +37,7 @@ In addition, using the complete mitochondrial genome offers better
 resolution for phylogenetic analyses and with sufficient sampling it can be
 placed in the context of previous works done on mitochondrial barcoding markers.
 
-[Download the poster](http://localhost:4000/files/Return_of_the_mitochondrial_DNA.pdf)
+[Download the poster](https://b-brankovics.github.io/files/Return_of_the_mitochondrial_DNA.pdf)
 
 ## Take home message
 
