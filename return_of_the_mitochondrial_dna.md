@@ -5,7 +5,7 @@ date:   2016-11-18 15:29:36 +0100
 permalink: /projects/return_of_the_mitochondrial_dna/
 ---
 
-> This is a project associated with a [poster](http://localhost:4000/files/Return_of_the_mitochondrial_DNA.pdf) presented at the
+> This is a project associated with a [poster](https://b-brankovics.github.io/files/Return_of_the_mitochondrial_DNA.pdf) presented at the
 > 29th Fungal Genetics Conference (14-19 March 2017, Pacific Grove,
 > CA, USA). It contains more information on the methods used than the
 > poster itself. You can also find a downloadable copy of the poster
