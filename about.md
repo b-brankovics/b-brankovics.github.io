@@ -6,7 +6,8 @@ permalink: /about/
 
 # About me
 
-I am a bioinformatician currently working at CBS-KNAW Fungal Biodiversity Centre. Currently working on my PhD.
+I am a bioinformatician currently working at Westerdijk Fungal
+Biodiversity Institute (former CBS-KNAW). Currently working on my PhD.
 
 I completed my Bachelor and Master studies as a Biologist at the
 University of Szeged (Szeged, Hungary).
@@ -15,7 +16,7 @@ When I submitted my Bachelor thesis, I migrated from Windows to Ubuntu
 on my home computer. As a Linux user I started learning a bit of shell
 programming which did not exceed the bare essentials for maintaining
 my OS installation. During my Master studies Edx was launched and
-I took up the first course on Python, _Introduction to Computer Science and Programming Using Python (MITx - 6.00.1x)_. This course thought me the basics
+I took up the first course on Python, _Introduction to Computer Science and Programming Using Python (MITx - 6.00.1x)_. This course taught me the basics
 of programming. After this course I started experimenting with some of the
 sequence data that I have generated during my internship or data I downloaded.
 The next major step that helped my become a bioinformatician was when I read
