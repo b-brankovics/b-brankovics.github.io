@@ -16,7 +16,7 @@ In the 1990s, the barcoding of life project was started, aiming to use
 a single sequence to identify animals, fungi and plants to the species
 level. The first marker that was proposed was a mitochondrial marker:
 the mitochondrially encoded cytochrome oxidase I (_cox1_ in
-filamentous fungi). 
+filamentous fungi).
 
 However, amplifying the _cox1_ sequence proved problematic in many
 fungal groups, because the frequent insertions of introns into the
@@ -72,15 +72,18 @@ free to contact me via ResearchGate, LinkedIn or GitHub._
 > So the citation information below is temporary and will be updated
 > when the work is published.
 
-Brankovics, Balázs, van Dam, Peter, Rep, Martijn, de Hoog, G. Sybren,
+[Brankovics, Balázs, van Dam, Peter, Rep, Martijn, de Hoog, G. Sybren,
 van der Lee, Theo A. J., Waalwijk, Cees and van Diepeningen, Anne D.
-Mitochondrial genomes reveal recombination in the presumed asexual
-_Fusarium oxysporum_ species complex. (Under review)
+**Mitochondrial genomes reveal recombination in the presumed asexual
+_Fusarium oxysporum_ species complex.** _BMC Genomics_ 2017 Sep 18;
+18(1):735 doi: 10.1186/s12864-017-4116-5](http://rdcu.be/vYp0)
 
 ## External links
 * [The poster on ResearchGate](https://researchgate.net)
 * [GRAbB on GitHub](https://github.com/b-brankovics/grabb)
 * [The article describing GRAbB](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004753)
 * [Automated GCPSR on GitHub](https://github.com/b-brankovics/GCPSR)
+* [The article describing the GCPSR implementation](http://rdcu.be/vYp0)
 * [The fasta\_tools package on GitHub](https://github.com/b-brankovics/fasta_tools)
+* [ResearchGate profile](https://www.researchgate.net/profile/Balazs_Brankovics)
 * [LinkedIn profile](https://nl.linkedin.com/in/balazs-brankovics)
